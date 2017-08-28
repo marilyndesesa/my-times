@@ -1,0 +1,124 @@
+header {
+  display: flex;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 30px;
+}
+
+.logo span{
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.menu-item a{
+  color: black;
+}
+
+.content{
+  display: flex;
+}
+
+div{
+  border: 1px solid black;
+  display: flex;
+}
+
+.column.large{
+  width: 630px;
+}
+
+.column.medium{
+  display: flex;
+  width: 300px;
+}
+
+.column.small{
+  display: flex;
+  width: 240px;
+}
+
+.column{
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.story, .news-bites, .main-story{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-story-heading{
+  display: flex;
+  align-items: flex-start;
+  background-image: url('../Images/Main-Story.png');
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.earth{
+  background-image: url('../Images/fall-season.png');
+}
+
+.memory{
+  background-image: url('../Images/hipster-camerman.png');
+
+}
+
+.cat{
+  background-image: url('../Images/cat-ceo.png');
+}
+
+.caption{
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.story, .main-story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story{
+  width: 300px;
+  flex-direction: column;
+}
+
+.stories{
+  justify-content: space-between;
+}
+
+h2{
+  font-size: 20px;
+}
